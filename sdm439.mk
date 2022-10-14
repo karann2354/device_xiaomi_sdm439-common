@@ -29,9 +29,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-QCOM_SOONG_NAMESPACE := \
-    $(LOCAL_PATH)/qcom-caf
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
